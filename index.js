@@ -41,7 +41,7 @@ transporter.verify((error) => {
               <br/>
               <h3>Name:</h3>
               <p>${req.body.name}</p>
-              <h3>Their email is:</h3>
+              <h3>Email:</h3>
               <p>${req.body.email}</p>
               <h3>Subject:</h3>
               <p>${req.body.subject}</p>
