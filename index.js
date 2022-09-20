@@ -12,7 +12,7 @@ app.use(cors())
 const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
     pool: true,
-    host: "uk53.siteground.eu", // hostname
+    host: "uk77.siteground.eu", // hostname
     secureConnection: false, // TLS requires secureConnection to be false
     port: 465, // port for secure SMTP
     tls: {
